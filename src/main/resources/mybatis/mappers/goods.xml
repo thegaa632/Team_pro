@@ -5,6 +5,7 @@
 
 <mapper namespace="mapper.goods">
 	<!-- 리절트 맵 정의 -->
+	<!-- MyBatis 프레임워크에서 사용되는 개념으로, SQL 쿼리의 실행 결과를 자바 객체에 매핑하는 규칙을 정의 -->
 	<resultMap id="goodsResult" type="goodsVO">
 		<result property="goods_id" column="goods_id" />
 		<result property="goods_title" column="goods_title" />
